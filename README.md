@@ -1,40 +1,419 @@
-# Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
-
-# Date:
-# Register no.
-# Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
-
-#AI Tools Required: 
+# Exno.7 -Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
 
 
-# Explanation: 
-Prompt:
-"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+## Register No: 212223040171
 
+## Aim:
 
+# To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
-# Result: 
-The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
- Understand how to tailor LLM prompts to real-life applications.
- Foster creativity by designing features suited to their personal or academic lives.
- Learn prompt engineering techniques for optimal interaction with AI tools.
- Experience the versatility and utility of generative AI in solving everyday problems.
+---
+
+# AI Tool Used
+
+**ChatGPT** – Used for generating productivity schedules, task priorities, wellness suggestions, reminders, progress updates, and personalized study plans.
+
+---
+
+# Use Case Scenario
+
+A college student has multiple academic and personal activities to complete in a day. The Personal Productivity Assistant helps the student organize these activities, identify urgent tasks, create a realistic schedule, maintain breaks and wellness activities, track completed tasks, and adapt future schedules based on user preferences.
+
+The assistant interacts with the student using natural language instead of requiring a fixed command format.
+
+---
+
+# Explanation
+
+A Personal Productivity Assistant is a prompt-based application that uses a Large Language Model to help a college student manage daily activities.
+
+The assistant can:
+
+1. Manage daily tasks.
+2. Identify important and urgent activities.
+3. Create realistic daily schedules.
+4. Prioritize tasks as High, Medium, and Low.
+5. Provide wellness tips such as hydration, breaks, eye rest, and exercise.
+6. Understand reminder requests using natural language.
+7. Track completed and unfinished tasks.
+8. Adapt the workload according to user feedback.
+9. Remember study preferences during the conversation.
+10. Generate personalized schedules based on user preferences.
+
+---
+
+# Initial Prompt
+
+"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user's changing preferences over time."
+
+---
+
+# Procedure
+
+1. Define the core requirements of a Personal Productivity Assistant.
+2. Construct appropriate prompts for daily task management and scheduling using ChatGPT.
+3. Simulate natural user interaction by providing tasks and feedback in natural language.
+4. Prioritize tasks according to deadlines and importance.
+5. Generate wellness suggestions and reminder requests.
+6. Provide feedback about completed and unfinished tasks.
+7. Adapt future responses according to user preferences.
+8. Observe the corresponding outputs generated by the Large Language Model.
+
+---
+
+# Expected Output
+
+The expected output is a prompt-based Personal Productivity Assistant capable of:
+
+- Creating daily schedules.
+- Prioritizing important tasks.
+- Managing deadlines.
+- Providing wellness suggestions.
+- Understanding natural-language reminder requests.
+- Tracking completed and pending tasks.
+- Adapting schedules based on user feedback.
+- Personalizing future schedules according to user preferences.
+
+---
+
+# Output (Example Response by LLM)
+
+## Personal Productivity Assistant Features
+
+### 1. Daily Task Manager
+
+- Accept tasks through natural language.
+- Organize tasks according to importance and deadlines.
+- Display completed and pending tasks.
+- Provide a daily task summary.
+
+### 2. Smart Scheduler
+
+- Create realistic schedules based on available time.
+- Give more time to urgent tasks.
+- Include breaks and flexible time slots.
+- Understand natural-language reminder requests.
+
+### 3. Wellness Tips Generator
+
+- Suggest hydration and short breaks.
+- Recommend eye-rest breaks during screen use.
+- Include exercise and physical activity.
+- Adjust suggestions according to the user's condition and preferences.
+
+### 4. Progress and Preference Adaptation
+
+- Track completed and unfinished tasks.
+- Reduce unnecessary workload when the user is tired.
+- Remember study preferences during the conversation.
+- Generate personalized schedules based on those preferences.
+
+---
+
+# Algorithm Overview
+
+The Personal Productivity Assistant accepts the student's tasks as input and identifies deadlines and priorities. It generates an initial schedule and then improves the schedule based on user feedback.
+
+The assistant also provides wellness suggestions and understands reminder requests. When the student reports completed or unfinished tasks, the assistant updates the task list. Finally, the assistant uses the student's preferred study pattern to create a personalized schedule.
+
+---
+
+# Input
+
+### User Tasks:
+
+1. Attend college class at 10:00 AM.
+2. Complete Java assignment by 5:00 PM.
+3. Study JavaScript for 2 hours.
+4. Work on the project.
+5. Prepare for tomorrow's test.
+6. Exercise for 20 minutes.
+
+### User Preferences:
+
+- Prefer realistic schedules.
+- Include short breaks.
+- Study for about 45 minutes followed by a 10-minute break whenever possible.
+- Avoid excessive workload when tired.
+
+---
+
+# Output
+
+The assistant generates:
+
+- A daily productivity schedule.
+- High, Medium, and Low task priorities.
+- Wellness suggestions.
+- Reminder interpretation.
+- Updated task lists.
+- Personalized study schedules.
+- Progress-based workload adjustments.
+
+---
+
+# Step-by-Step Algorithm
+
+1. **Start**
+2. Initialize the Personal Productivity Assistant.
+3. Accept daily tasks from the user.
+4. Identify deadlines and important activities.
+5. Generate an initial daily schedule.
+6. Prioritize tasks as High, Medium, and Low.
+7. Adjust the schedule according to task priority.
+8. Provide wellness tips and break suggestions.
+9. Accept reminder requests using natural language.
+10. Accept feedback about completed and unfinished tasks.
+11. Update the task list according to the user's progress.
+12. Accept and remember user preferences during the conversation.
+13. Generate a personalized schedule using the user's preferred study pattern.
+14. Display the final productivity plan.
+15. **Stop**
+
+---
+
+# Step-by-Step Prompt Evolution
+
+## Step 1: Daily Task Initialization
+
+### Prompt:
+
+"You are a personal productivity assistant for a college student. I have the following tasks today:
+
+1. Attend college class at 10:00 AM
+2. Complete my Java assignment by 5:00 PM
+3. Study JavaScript for 2 hours
+4. Work on my project
+5. Prepare for tomorrow's test
+6. Exercise for 20 minutes
+
+Create a simple and realistic daily schedule. Give more time to important tasks and include short breaks."
+
+### Output:
+
+The assistant generated a realistic daily schedule by considering the fixed college class and the 5:00 PM Java assignment deadline.
+
+### Today's Simple Schedule:
+
+- 10:00 AM – 1:00 PM: Attend college class
+- 1:00 – 1:45 PM: Lunch and relaxation
+- 1:45 – 3:15 PM: Java assignment - focused work
+- 3:15 – 3:30 PM: Short break
+- 3:30 – 4:45 PM: Finish and submit Java assignment
+- 4:45 – 5:00 PM: Break / refresh
+- 5:00 – 6:00 PM: Prepare for tomorrow's test
+- 6:00 – 6:20 PM: Exercise
+- 6:20 – 6:45 PM: Refresh and snack
+- 6:45 – 7:45 PM: JavaScript - 1 hour
+- 7:45 – 8:15 PM: Dinner and break
+- 8:15 – 9:15 PM: JavaScript - 1 hour
+- 9:15 – 9:30 PM: Short break
+- 9:30 – 10:30 PM: Project work
+- 10:30 – 11:00 PM: Quick test revision
+
+### Priority Order:
+
+1. Java assignment - deadline today
+2. Tomorrow's test - important upcoming task
+3. JavaScript - 2 hours
+4. Project work
+5. Exercise
+6. Breaks and meals
+
+**Key Feature:** Daily task management and schedule generation.
+
+---
+
+## Step 2: Task Prioritization
+
+### Prompt:
+
+"The Java assignment must be completed by 5 PM and tomorrow's test is important. JavaScript and project work can be done after the urgent tasks. Prioritize my tasks as High, Medium, and Low priority and adjust today's schedule accordingly."
+
+### Output:
+
+The assistant reorganized the tasks based on urgency and importance.
+
+### Priority List:
+
+**High Priority**
+1. Java assignment - deadline 5:00 PM
+2. Prepare for tomorrow's test
+3. College class at 10:00 AM
+
+**Medium Priority**
+4. JavaScript - 2 hours
+5. Project work
+
+**Low Priority**
+6. Exercise - 20 minutes
+
+### Adjusted Schedule:
+
+- College class was kept as a fixed high-priority activity.
+- The Java assignment received the highest priority before the 5:00 PM deadline.
+- Test preparation was scheduled after the urgent assignment.
+- JavaScript and project work were moved to later flexible time slots.
+- Exercise remained as a flexible wellness activity.
+
+**Key Feature:** Adaptive task prioritization.
+
+---
+
+## Step 3: Wellness and Smart Reminder Support
+
+### Wellness Prompt:
+
+"I have been studying for several hours today and I feel tired. Give me 3 simple wellness tips that I can follow while studying. Include advice about water, short breaks, eye rest, and exercise. Keep the suggestions practical for a college student."
+
+### Output:
+
+### Wellness Tips:
+
+**1. Keep water nearby**
+
+Keep a water bottle beside you and drink regularly, especially during study breaks.
+
+**2. Take short breaks and rest your eyes**
+
+Follow a study and break pattern. During breaks, look away from the screen, close your eyes for a while, stretch, or walk around.
+
+**3. Exercise for 20 minutes**
+
+Take time for light exercise such as walking, stretching, or simple exercises at home.
+
+### Smart Reminder Prompt:
+
+"Remind me to prepare for tomorrow's test at 7:00 PM today and remind me to submit my Java assignment before 5:00 PM."
+
+### Output:
+
+The assistant created reminders for:
+
+- Java assignment submission before 5:00 PM.
+- Test preparation at 7:00 PM.
+
+This demonstrates that the assistant can understand reminder requests expressed using natural language.
+
+**Key Feature:** Wellness support and natural-language reminder handling.
+
+---
+
+## Step 4: Progress Tracking and Personal Preference Adaptation
+
+### Progress Prompt:
+
+"I completed my Java assignment, but I could not finish the JavaScript study and project work. Update my task list based on my progress. Move the unfinished tasks to a suitable time and reduce unnecessary workload for tomorrow."
+
+### Output:
+
+### Updated Task List:
+
+| Task | Status | Priority |
+|---|---|---|
+| Attend college class | Completed | High |
+| Complete Java assignment | Completed | High |
+| Prepare for tomorrow's test | Continue/Finish | High |
+| Study JavaScript for 2 hours | Not completed | Medium |
+| Work on project | Not completed | Medium |
+| Exercise for 20 minutes | As needed | Low |
+
+The assistant reduced the workload and moved unfinished tasks to a suitable time instead of forcing all pending tasks into the same day.
+
+### Preference Prompt:
+
+"My preference is to study for about 45 minutes and then take a 10-minute break. Remember this preference for this conversation. From now on, create my study schedules using this pattern whenever possible."
+
+The assistant accepted this preference.
+
+### Personalized Schedule Prompt:
+
+"I have 2 hours of JavaScript study to complete tomorrow. Create a schedule according to my preferred study pattern."
+
+### Output:
+
+### Tomorrow's JavaScript Schedule:
+
+| Time | Activity |
+|---|---|
+| 3:00 – 3:45 PM | JavaScript Study - Session 1 |
+| 3:45 – 3:55 PM | Break + Water |
+| 3:55 – 4:40 PM | JavaScript Study - Session 2 |
+| 4:40 – 4:50 PM | Eye-rest break + Walk |
+| 4:50 – 5:20 PM | JavaScript Study - Session 3 |
+
+**Total Study Time:** 2 hours
+
+**Total Break Time:** 20 minutes
+
+### Session Plan:
+
+- Session 1: Learn/revise concepts
+- Session 2: Practice examples and write code
+- Session 3: Solve problems and revise
+
+**Key Feature:** Progress tracking, feedback-based adaptation, and personalized scheduling.
+
+---
+
+# Feedback Loop
+
+The Personal Productivity Assistant uses the following feedback loop:
+
+User provides tasks
+        ↓
+Assistant creates initial schedule
+        ↓
+User identifies important tasks
+        ↓
+Assistant adjusts priorities
+        ↓
+User provides progress feedback
+        ↓
+Assistant updates pending tasks
+        ↓
+User provides study preference
+        ↓
+Assistant creates personalized schedule
+
+---
+
+# Summary Table
+
+| Step | Description | Prompt Used | Key Features |
+|---|---|---|---|
+| 1 | Daily Task Initialization | "Create a simple and realistic daily schedule..." | Task management, scheduling |
+| 2 | Task Prioritization | "Prioritize my tasks as High, Medium, and Low..." | Adaptive prioritization |
+| 3 | Wellness and Smart Reminder Support | "I have been studying for several hours..." / "Remind me to prepare..." | Wellness, breaks, reminders |
+| 4 | Progress and Preference Adaptation | "I completed my Java assignment..." / "My preference is to study for about 45 minutes..." | Progress tracking, feedback, personalization |
+
+---
+
+# Conclusion
+
+The Personal Productivity Assistant successfully demonstrated prompt-based planning using ChatGPT. The assistant progressively handled daily task scheduling, task prioritization, wellness support, natural-language reminders, progress tracking, and preference-based personalization.
+
+The prompt evolution from a basic daily schedule to adaptive and personalized interactions improved the usefulness of the assistant for a college student's academic and personal activities.
+
+The experiment demonstrates how Large Language Models can be tailored to practical everyday requirements through appropriate prompt design and user feedback.
+
+---
+
+# Result
+
+The lab exercise resulted in the creation of a prototype concept for a Personal Productivity Assistant powered by a Large Language Model.
+
+The assistant successfully demonstrated:
+
+- Daily task management
+- Realistic schedule generation
+- Priority-based task organization
+- Deadline-aware scheduling
+- Wellness and break suggestions
+- Natural-language reminder handling
+- Progress tracking
+- Feedback-based schedule adaptation
+- User preference adaptation
+- Personalized study scheduling
+
+Thus, the experiment demonstrated how prompt engineering can be used to develop a practical LLM-based application tailored to a student's personal and academic needs.
